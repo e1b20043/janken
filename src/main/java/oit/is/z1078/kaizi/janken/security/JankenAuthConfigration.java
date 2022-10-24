@@ -30,12 +30,12 @@ public class JankenAuthConfigration {
     // $ sshrun htpasswd -nbBC 10 user1 p@ss
     UserDetails user1 = users
         .username("user1")
-        .password("$2y$10$uzmSQ389g5phmCG831G/bO6aBFUH55R.yL6HqtsaHqkIpT7RXnAOW")
+        .password("$2y$10$dFRNNYGcbDYXyyFBZdggJuDAkSNcdlISrOyPtU1K7gYIvl72m/Fn6")
         .roles("USER")
         .build();
     UserDetails user2 = users
         .username("user2")
-        .password("$2y$10$uzmSQ389g5phmCG831G/bO6aBFUH55R.yL6HqtsaHqkIpT7RXnAOW")
+        .password("$2y$10$dFRNNYGcbDYXyyFBZdggJuDAkSNcdlISrOyPtU1K7gYIvl72m/Fn6")
         .roles("USER")
         .build();
     // 生成したユーザをImMemoryUserDetailsManagerに渡す（いくつでも良い）
